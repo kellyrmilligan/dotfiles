@@ -1,0 +1,15 @@
+autoclose-html@0.23.0
+autocomplete-modules@1.6.7
+color-picker@2.2.3
+docblockr@0.9.1
+highlight-selected@0.11.2
+language-SCSS@0.4.0
+language-babel@2.48.5
+language-gitignore@0.3.0
+linter@1.11.18
+linter-eslint@8.0.0
+linter-js-standard@3.7.0
+linter-sass-lint@1.7.4
+markdown-preview-plus@2.4.0
+pigments@0.37.0
+seti-ui@1.4.0

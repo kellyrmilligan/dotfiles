@@ -12,7 +12,7 @@ alias -- -="cd -"
 alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias p="cd ~/projects"
+alias code="cd ~/Documents/Code"
 alias g="git"
 alias h="history"
 alias j="jobs"
@@ -158,3 +158,9 @@ alias reload="exec $SHELL -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+# npm alias
+alias nr = 'npm run'
+alias ni = 'npm i'
+alias nid = 'npm i -D '
+alias nis = 'npm i -S '

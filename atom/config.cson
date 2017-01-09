@@ -1,0 +1,41 @@
+"*":
+  core:
+    disabledPackages: [
+      "linter-js-standard"
+    ]
+    telemetryConsent: "no"
+
+  editor:
+    fontFamily: "Menlo"
+    fontSize: 14
+    invisibles: {}
+    showIndentGuide: true
+    softWrapAtPreferredLineLength: true
+  "release-notes":
+    viewedVersion: "0.89.0"
+  "spell-check":
+    grammars: [
+      "text.plain"
+      "source.gfm"
+      "text.git-commit"
+      "text.html.basic"
+    ]
+    "exception-reporting":
+      userId: "375a7655-25c0-d90e-2266-e78b89305253"
+    linter:
+      showErrorPanel: false
+    "linter-eslint":
+      fixOnSave: true
+      globalNodePath: "/Users/kellymilligan/.nvm/versions/node/v6.9.2"
+      rulesToSilenceWhileTyping: [
+        "no-trailing-spaces"
+      ]
+      useGlobalEslint: true
+    "linter-js-standard":
+      checkStyleDevDependencies: true
+      showEslintRules: true
+    "markdown-preview-plus":
+      useGitHubStyle: true
+    "tree-view": {}
+  welcome:
+    showOnStartup: false
