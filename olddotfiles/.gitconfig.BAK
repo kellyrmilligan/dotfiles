@@ -1,0 +1,50 @@
+[mergetool "Kaleidoscope"]
+        cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+        trustexitcode = true
+[merge]
+        tool = Kaleidoscope
+        renamelimit = 26543
+[difftool "Kaleidoscope"]
+        cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[difftool]
+        prompt = false
+[mergetool]
+        prompt = false
+        keepBackup = false
+[diff]
+        tool = Kaleidoscope
+
+[user]
+        name = kellyrmilligan
+        email = kelly.milligan@gmail.com
+[core]
+        editor = vim
+[color]
+        ui = true
+[pull]
+        rebase = true
+
+[push]
+        default = current
+
+[alias]
+  count = !git shortlog -sn
+  st = status
+  ci = commit -m
+  cim = commit -am
+  ada = add --all
+  br = branch
+  brd = branch -D
+  brdr = "!sh -c 'git branch -D $1 && git push origin --delete $1' -"
+  co = checkout
+  cob = checkout -b
+  fu = fetch upstream
+  fum = "!sh -c 'git fetch upstream && git merge upstream/$1' -"
+  df = diff --color
+  dft = difftool
+  mgt = mergetool
+  lg = log -p
+  ls = log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+  #ls = log --pretty=oneline -n 20 --graph --abbrev-commit
+[credential]
+        helper = osxkeychain

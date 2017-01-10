@@ -1,0 +1,37 @@
+for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
+        [ -r "$file" ] && [ -f "$file" ] && source "$file";
+done;
+unset file;
+
+
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
+
+if [ -f $(brew --prefix nvm)/nvm.sh ]; then
+  export NVM_DIR=~/.nvm
+  . $(brew --prefix nvm)/nvm.sh
+fi
+
+if [ -f $(brew --prefix rbenv)/bin/rbenv ]; then
+  eval "$(rbenv init -)"
+fi
+
+export GITHUB_API_TOKEN=4f0ad1c4fe2123f135babc6349f9d7f37f7087af
+export DOCKER_HOST=tcp://192.168.23.2:2375
+export NODE_ENV='development'
+export APP_ENV='development'
+alias ber='bundle exec rake'
+alias npmr='npm run'
+alias sm_nginx='docker-compose -f core.compose.yml up -d nginx'
+#export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
+#export CLICOLOR=1
+#export LSCOLORS=ExFxBxDxCxegedabagacad
+alias ls='ls -GFh'
+alias git=hub
+
+#add for service manager
+eval $(docker-machine env)
+
+#add to path for brew
+export PATH="/usr/local/sbin:$PATH"

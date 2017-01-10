@@ -52,12 +52,12 @@
 	# delete local branch
 	bd = branch -D
 
+  # delete local and remote branch
+	bdr = "!sh -c 'git branch -D $1 && git push origin --delete $1' -"
+
 	#upstream stuff
 	fu = fetch upstream
   fum = "!sh -c 'git fetch upstream && git merge upstream/$1' -"
-
-	# delete local and remote branch
-	bdr = "!sh -c 'git branch -D $1 && git push origin --delete $1' -"
 
 	# Amend the currently staged files to the latest commit
 	amend = commit --amend --reuse-message=HEAD
