@@ -13,3 +13,5 @@ linter-sass-lint@1.7.4
 markdown-preview-plus@2.4.0
 pigments@0.37.0
 seti-ui@1.4.0
+
+
