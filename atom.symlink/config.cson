@@ -4,24 +4,25 @@
       "linter-js-standard"
     ]
     telemetryConsent: "no"
-
   editor:
     fontFamily: "Menlo"
     fontSize: 14
     invisibles: {}
     showIndentGuide: true
     softWrapAtPreferredLineLength: true
+  "exception-reporting":
+    userId: "284f782f-515c-523f-92de-8b84f0fcdad9"
   "release-notes":
     viewedVersion: "0.89.0"
   "spell-check":
+    "exception-reporting":
+      userId: "375a7655-25c0-d90e-2266-e78b89305253"
     grammars: [
       "text.plain"
       "source.gfm"
       "text.git-commit"
       "text.html.basic"
     ]
-    "exception-reporting":
-      userId: "375a7655-25c0-d90e-2266-e78b89305253"
     linter:
       showErrorPanel: false
     "linter-eslint":

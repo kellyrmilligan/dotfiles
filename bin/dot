@@ -18,4 +18,4 @@ brew update
 
 # Install software
 echo "› $BASH/script/install"
-$BASH/script/install
+$BASH/script/install.sh
