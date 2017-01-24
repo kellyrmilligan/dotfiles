@@ -9,7 +9,7 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias d="cd ~/Documents/Dropbox"
+alias d="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias code="cd ~/Documents/Code"
@@ -160,7 +160,7 @@ alias reload="exec $SHELL -l"
 alias path='echo -e ${PATH//:/\\n}'
 
 # npm alias
-alias nr = 'npm run'
-alias ni = 'npm i'
-alias nid = 'npm i -D '
-alias nis = 'npm i -S '
+alias nr='npm run'
+alias ni='npm i'
+alias nis='npm i -S '
+alias nid='npm i -D '

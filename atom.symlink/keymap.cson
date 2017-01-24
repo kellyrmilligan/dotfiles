@@ -1,2 +1,4 @@
 'atom-text-editor:not([mini])':
-  'command-shift-delete': 'editor:delete-line'
+  'ctrl-shift-K': 'unset!'
+  'shift-cmd-backspace': 'unset!'
+  'cmd-shift-backspace': 'editor:delete-line'

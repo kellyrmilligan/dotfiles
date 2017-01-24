@@ -1,12 +1,8 @@
 "*":
   core:
-    disabledPackages: [
-      "linter-js-standard"
-    ]
     telemetryConsent: "no"
   editor:
     fontFamily: "Menlo"
-    fontSize: 14
     invisibles: {}
     showIndentGuide: true
     softWrapAtPreferredLineLength: true
