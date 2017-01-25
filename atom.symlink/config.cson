@@ -1,8 +1,8 @@
 "*":
   core:
-    telemetryConsent: "no"
+    telemetryConsent: "limited"
   editor:
-    fontFamily: "Menlo"
+    fontFamily: "Source Code Pro"
     invisibles: {}
     showIndentGuide: true
     softWrapAtPreferredLineLength: true
