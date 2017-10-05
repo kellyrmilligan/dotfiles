@@ -1,13 +1,26 @@
 "*":
   core:
+    disabledPackages: [
+      "linter-js-standard"
+      "linter-flow"
+    ]
     telemetryConsent: "limited"
   editor:
     fontFamily: "Source Code Pro"
     invisibles: {}
     showIndentGuide: true
+    showInvisibles: true
     softWrapAtPreferredLineLength: true
+    tabType: "soft"
   "exception-reporting":
     userId: "284f782f-515c-523f-92de-8b84f0fcdad9"
+  "linter-eslint":
+    globalNodePath: "/Users/kellymilligan/.nvm/versions/node/v6.10.2"
+    useGlobalEslint: true
+  "linter-flow": {}
+  "linter-js-standard": {}
+  "linter-stylelint": {}
+  "linter-ui-default": {}
   "release-notes":
     viewedVersion: "0.89.0"
   "spell-check":

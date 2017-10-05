@@ -28,3 +28,15 @@ export LESS_TERMCAP_md="${yellow}";
 
 # Don’t clear the screen after quitting a manual page.
 export MANPAGER='less -X';
+
+
+export GITHUB_API_TOKEN=ef7bcdc3069f72b2f43da1edf385b0ed83657090
+
+export AWS_ACCESS_KEY_ID=AKIAJPR6YBH3B2YLJOJQ;
+export AWS_SECRET_ACCESS_KEY=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;
+
+export NPM_TOKEN=6c3a3d99-a95d-4e90-93b6-a4e288855d3d
+
+export ACCEPT_HIGHCHARTS_LICENSE=YES
+
+export KH_BOX_VIEW_API_KEY=fMIsblCRW41ztdgE0rZSQXBGh3DUVNHj

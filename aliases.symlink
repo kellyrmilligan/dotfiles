@@ -12,7 +12,7 @@ alias -- -="cd -"
 alias d="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias code="cd ~/Documents/Code"
+alias code="cd ~/code"
 alias g="git"
 alias h="history"
 alias j="jobs"
@@ -159,8 +159,14 @@ alias reload="exec $SHELL -l"
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
 
+# source the main bash profile
+alias reloadprofile="source ~/.bash_profile"
+
 # npm alias
 alias nr='npm run'
 alias ni='npm i'
 alias nis='npm i -S '
 alias nid='npm i -D '
+
+alias restartapache='vagrant ssh web -c "sudo service apache2 restart"'
+alias restartweb='vagrant ssh web -c "sudo service ntp stop && sudo service ntp start && sudo /etc/init.d/spss restart && sudo /etc/init.d/husky restart && sudo /etc/init.d/greyhound restart && sudo service apache2 restart"'
