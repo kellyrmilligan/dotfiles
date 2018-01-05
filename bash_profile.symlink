@@ -115,9 +115,3 @@ elif type compctl &>/dev/null; then
   compctl -K _npm_completion npm
 fi
 ###-end-npm-completion-###
-
-
-### local ones ###
-if [ -f ~/code/devops/bin/dev-env ]; then
-    source ~/code/devops/bin/dev-env
-fi

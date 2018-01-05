@@ -20,7 +20,16 @@
   "linter-flow": {}
   "linter-js-standard": {}
   "linter-stylelint": {}
-  "linter-ui-default": {}
+  "linter-ui-default":
+    showPanel: true
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+      isDisabledIfNotInPackageJson: true
+    prettierOptions:
+      semi: false
+      singleQuote: true
+    useEslint: true
   "release-notes":
     viewedVersion: "0.89.0"
   "spell-check":
@@ -47,5 +56,6 @@
     "markdown-preview-plus":
       useGitHubStyle: true
     "tree-view": {}
+  "tree-view": {}
   welcome:
     showOnStartup: false

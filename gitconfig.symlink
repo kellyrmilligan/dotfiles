@@ -9,7 +9,8 @@
 [alias]
 
   # forces the contents of the current branch onto another branch and pushes said branch, ex. git overwrite feature/blah int
-	overwrite = "!sh -c 'git checkout $1 && git merge -s ours $2 && git checkout $2 && git merge $1' -"
+	#overwrite = "!sh -c 'git checkout $1 && git merge -s ours $2 && git checkout $2 && git merge $1' -"
+	overwrite = "!sh -c 'git push -f origin $1:$2' -"
 
 	# shows commit count by contributor
 	count = !git shortlog -sn
