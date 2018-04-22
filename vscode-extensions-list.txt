@@ -1,0 +1,10 @@
+code --install-extension akamud.vscode-theme-onedark
+code --install-extension codezombiech.gitignore
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension dzannotti.vscode-babel-coloring
+code --install-extension esbenp.prettier-vscode
+code --install-extension flowtype.flow-for-vscode
+code --install-extension jaspernorth.vscode-pigments
+code --install-extension leizongmin.node-module-intellisense
+code --install-extension mikestead.dotenv
+code --install-extension robinbentley.sass-indented
