@@ -1,3 +1,4 @@
+code --install-extension EditorConfig.EditorConfig
 code --install-extension akamud.vscode-theme-onedark
 code --install-extension codezombiech.gitignore
 code --install-extension dbaeumer.vscode-eslint
