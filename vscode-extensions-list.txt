@@ -1,4 +1,5 @@
 code --install-extension EditorConfig.EditorConfig
+code --install-extension Equinusocio.vsc-material-theme
 code --install-extension akamud.vscode-theme-onedark
 code --install-extension codezombiech.gitignore
 code --install-extension dbaeumer.vscode-eslint
@@ -10,4 +11,6 @@ code --install-extension formulahendry.auto-rename-tag
 code --install-extension jaspernorth.vscode-pigments
 code --install-extension leizongmin.node-module-intellisense
 code --install-extension mikestead.dotenv
+code --install-extension mohsen1.prettify-json
 code --install-extension robinbentley.sass-indented
+code --install-extension shinnn.stylelint
